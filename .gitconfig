@@ -1,0 +1,15 @@
+[alias]
+	st = status
+	ll = log --oneline
+	cm = commit -m
+	co = checkout
+	df = diff
+
+[user]
+	name = Gregory Meyer
+	email = gregm@gladi8.com
+[push]
+	default = matching
+[core]
+	excludesfile = /Users/gregorymeyer/.gitignore_global
+	editor = /usr/local/bin/vim
