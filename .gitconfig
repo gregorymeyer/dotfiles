@@ -6,8 +6,8 @@
 	df = diff
 
 [user]
-	name = Gregory Meyer
-	email = gregm@gladi8.com
+	name = "Gregory Meyer"
+	email = "gregorymeyer88@gmail.com"
 [push]
 	default = matching
 [core]
