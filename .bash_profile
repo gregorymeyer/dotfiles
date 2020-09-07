@@ -24,6 +24,7 @@ alias gdb="git branch -D"
 alias gnb="git co -b"
 alias gbs="git branch"
 alias gacm="git add . && git commit -m"
+alias gpom="git push origin master"
 
 
 # Gian's aliases
@@ -43,9 +44,6 @@ alias phoenix="cd ~/Documents/Gladi8/DocFox/phoenix"
 
 # To show the git branch in the prompt
 source ~/.git-prompt.sh
-
-# To enable git auto-complete
-source ~/.git-autocomplete.bash
 
 # Decorate the prompt
 export PS1="\e[0;32m\u:\e[m\e[1;31m \w\e[m\e[0;34m\$(__git_ps1)\e[m: "
@@ -68,11 +66,3 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export PGDATA=/usr/local/var/postgres
 
 [ -s "/Users/gregorymeyer/.dnx/dnvm/dnvm.sh" ] && . "/Users/gregorymeyer/.dnx/dnvm/dnvm.sh" # Load dnvm
-
-# For the pairing gem
-pair() {
-       	command pair "$@"
-	if [[ -s "$HOME/.pair-up_export_authors" ]] ; then source "$HOME/.pair-up_export_authors" ; fi
-  }
-pair
-
