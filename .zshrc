@@ -21,3 +21,6 @@ eval "$(mise activate bash)"
 
 # git aliases
 alias gst="git status"
+alias gacm="git add . && git commit -m"
+alias gps="git push"
+alias gpl="git pull"
